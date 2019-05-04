@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+main()
+{
+        char a;
+        cout<<"enter a character"<<'\n';
+        cin>>a;
+        cout<<"ascii value of "<<a<<" is "<<int(a)<<"\n";
+}
+
