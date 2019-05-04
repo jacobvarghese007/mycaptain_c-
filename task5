@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+main()
+{
+        int num,n,arr=0,lar,smal;
+
+        cout<<"enter the size of an array ";
+        cin>>num;
+
+        cout<<"enter the elements ";
+        cin>>n;
+
+        lar=n;
+        smal=n;
+
+        for(int i=1;i<num;i++)
+        {
+                cin>>arr;
+                if(arr>lar)
+                {
+                        lar=arr;
+                }
+                else if(arr<smal)
+                {
+                        smal=arr;
+                }
+        }
+
+        cout<<"larger number is "<<lar<<"\n";
+        cout<<"smaller number is "<<smal<<"\n";
+}
